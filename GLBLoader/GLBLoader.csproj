@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateEvergineContent>True</GenerateEvergineContent>
+    <GenerateEvergineAssets>False</GenerateEvergineAssets>
+    <GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Evergine.Common" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Components" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Framework" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Mathematics" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Bullet" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Runtimes.GLB" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Targets" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.CodeScenes" Version="2025.5.2.767-glb" />
+  </ItemGroup>
+</Project>

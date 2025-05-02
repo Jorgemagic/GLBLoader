@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Display name -->
+    <ApplicationTitle>GLBLoader</ApplicationTitle>
+
+    <!-- App Identifier -->
+    <ApplicationId>com.companyname.GLBLoader.iOS</ApplicationId>
+    <ApplicationIdGuid>83fb69ec-a323-460b-a545-2ace1cbb21c6</ApplicationIdGuid>
+
+    <!-- Versions -->
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.4</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Evergine.iOS" Version="2025.5.2.767-glb" />
+	<PackageReference Include="Evergine.Metal" Version="2025.5.2.767-glb" />
+	<PackageReference Include="Evergine.Common" Version="2025.5.2.767-glb" />
+	<PackageReference Include="Evergine.Framework" Version="2025.5.2.767-glb" />	
+	<PackageReference Include="Evergine.Targets" Version="2025.5.2.767-glb" />
+	<PackageReference Include="Evergine.Targets.iOS" Version="2025.5.2.767-glb" />
+	<PackageReference Include="Evergine.LibBulletc.Natives" Version="2025.4.28.22" />
+  </ItemGroup>
+  
+  <ItemGroup>
+	<ProjectReference Include="..\GLBLoader\GLBLoader.csproj" />
+  </ItemGroup>
+</Project>

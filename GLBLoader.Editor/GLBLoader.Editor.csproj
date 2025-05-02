@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Evergine.Common" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Components" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Framework" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Editor.Extension" Version="2025.5.2.767-glb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GLBLoader\GLBLoader.csproj" />
+  </ItemGroup>
+</Project>
