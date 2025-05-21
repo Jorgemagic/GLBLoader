@@ -5,12 +5,12 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.DirectX11" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.HLSLEverywhere" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.XAudio2" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Forms" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Targets" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Targets.Windows" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.DirectX11" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.HLSLEverywhere" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.XAudio2" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Forms" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Targets" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Targets.Windows" Version="2025.3.18.1522" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GLBLoader\GLBLoader.csproj" />

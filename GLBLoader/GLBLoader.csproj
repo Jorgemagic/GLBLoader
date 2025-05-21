@@ -6,13 +6,13 @@
     <GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.Common" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Components" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Framework" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Mathematics" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Bullet" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Runtimes.GLB" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.Targets" Version="2025.5.2.767-glb" />
-    <PackageReference Include="Evergine.CodeScenes" Version="2025.5.2.767-glb" />
+    <PackageReference Include="Evergine.Common" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Components" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Framework" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Mathematics" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Bullet" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Runtimes.GLB" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Targets" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.CodeScenes" Version="2025.3.18.1522" />
   </ItemGroup>
 </Project>
